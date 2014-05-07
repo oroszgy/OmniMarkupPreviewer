@@ -38,7 +38,7 @@ class RstRenderer(MarkupRenderer):
             'doctitle_xform': False,
             'report_level': 5,
             'syntax_highlight': 'none',
-            'math_output': 'latex',
+            'math_output': 'MathJax',
             'input_encoding': 'utf-8',
             'output_encoding': 'utf-8',
             'stylesheet_dirs': [os.path.normpath(os.path.join(docutils_dir, Writer.default_stylesheet))],
